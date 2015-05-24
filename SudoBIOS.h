@@ -174,7 +174,7 @@ __asm__ __volatile__( \
 __asm__ __volatile__( \
 "  int 0x19\n\t" \
 )
-
+ 
 #define int_0x1A \
 __asm__ __volatile__( \
 "  call pre_int\n\t" \
