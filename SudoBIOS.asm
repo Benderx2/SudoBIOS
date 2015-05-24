@@ -20,7 +20,7 @@
 ; 0x0009???? - 0x0009FFFF Extended BIOS Data Area
 ; 0x000A0000 - 0x000FFFFF ROM Firmware
 ; 0x00100000 - 0xFFFFFFFF FREE
-
+ 
 %define fix define
 
 %define KBC_STATUS 0x64
