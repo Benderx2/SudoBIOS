@@ -1,4 +1,4 @@
-SudoBIOS - a completely transparent 32bit protected mode BIOS extender - say goodbye to real mode code. SudoBIOS uses simple mode switching, address translation and buffering to provide interrupt based classic (Compatibility Support Module) BIOS services while in 32bit protected mode.
+SudoBIOS - a completely transparent 32 bit protected mode BIOS extender - say goodbye to real mode code. SudoBIOS uses simple mode switching, address translation and buffering to provide interrupt based classic (Compatibility Support Module) BIOS services while in 32bit protected mode.
 
 A typical application is to have the boot sector or mbr load SudoBIOS as a 2nd stage (to absolute address 0x2000). A far call to that location returns in 32bit protected mode. A subset of the native BIOS functions (the common usable ones) are supported.
 
